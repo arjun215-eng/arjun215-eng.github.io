@@ -1,3 +1,6 @@
 title: Canteen
 description: Canteen App
 theme: minima
+
+minima:
+  skin: dark
