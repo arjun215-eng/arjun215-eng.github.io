@@ -3,7 +3,7 @@ layout: default
 title: Canteen
 ---
 
-# Welcome to Canteen
+# Welcome to Canteen!
 
 This is your GitHub Pages site built with markdown.
 
