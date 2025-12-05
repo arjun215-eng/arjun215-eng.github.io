@@ -1,6 +1,16 @@
 title: Canteen
-description: Canteen App
+description: A research and technology firm focused on crypto, AI, and payments
 theme: minima
 
 minima:
   skin: dark
+
+# Syntax highlighting
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+# Header navigation
+header_pages:
+  - about.md
