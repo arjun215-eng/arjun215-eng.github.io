@@ -1,0 +1,191 @@
+---
+---
+
+@import "minima";
+
+html, body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif !important;
+}
+
+.page-content, .wrapper {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif !important;
+}
+
+p, li, div {
+  color: #ffffff !important;
+}
+
+.site-header {
+  background-color: #000000;
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #424242;
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-logo {
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+}
+
+.site-title,
+.site-title:visited {
+  color: #ffffff;
+}
+
+.site-nav #nav-trigger {
+  display: none;
+}
+
+.site-nav .page-link {
+  color: #ffffff;
+}
+
+.site-nav .page-link:hover {
+  color: #cccccc;
+}
+
+.post-link {
+  color: #ffffff;
+}
+
+.post-link:visited {
+  color: #cccccc;
+}
+
+a {
+  color: #6eb5ff;
+}
+
+a:visited {
+  color: #bb86fc;
+}
+
+a:hover {
+  color: #4da3ff;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  color: #ffffff;
+  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
+}
+
+code,
+pre {
+  background-color: #1a1a1a !important;
+  border: 1px solid #424242 !important;
+  color: #e0e0e0 !important;
+  font-family: "Monaco", "Menlo", "Consolas", monospace !important;
+}
+
+pre {
+  padding: 16px !important;
+  overflow-x: auto !important;
+  border-radius: 6px !important;
+}
+
+code {
+  padding: 2px 6px !important;
+  border-radius: 3px !important;
+}
+
+pre > code {
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+}
+
+.highlight {
+  background-color: #1a1a1a !important;
+  border-radius: 6px !important;
+}
+
+.highlight pre {
+  background-color: #1a1a1a !important;
+  margin: 0 !important;
+}
+
+// Syntax highlighting for dark theme
+.highlight {
+  .k, .kd, .kn, .kp, .kr, .kt { color: #c678dd; } // keywords
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx { color: #98c379; } // strings
+  .n, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nx, .py, .nt { color: #61afef; } // names
+  .m, .mf, .mh, .mi, .il, .mo, .mb, .mx { color: #d19a66; } // numbers
+  .c, .c1, .cm, .cp, .cs { color: #5c6370; font-style: italic; } // comments
+  .o, .ow { color: #56b6c2; } // operators
+  .p { color: #abb2bf; } // punctuation
+  .gd { color: #e06c75; } // deleted
+  .gi { color: #98c379; } // inserted
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+  background-color: transparent !important;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  border: 1px solid #424242 !important;
+  text-align: left;
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+table th {
+  background-color: #1a1a1a !important;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+
+table td code,
+table th code {
+  background-color: #2a2a2a !important;
+  padding: 2px 6px !important;
+  border-radius: 3px !important;
+  font-size: 0.9em;
+  border: none !important;
+  color: #7dd3fc !important;
+  font-family: "Monaco", "Menlo", "Consolas", monospace !important;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.site-footer {
+  background-color: #000000;
+  border-top: 1px solid #424242;
+  color: #cccccc;
+  padding: 30px 0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content p {
+  color: #cccccc !important;
+  margin: 0;
+  font-size: 14px;
+}
